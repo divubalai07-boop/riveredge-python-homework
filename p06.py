@@ -7,7 +7,7 @@ tens = ["","","twenty","thirty","forty","fifty",
         "sixty","seventy","eighty","ninety"]
 
 def amount_in_words(n):
-    ans = ""
+    ans = " "
 
     if n >= 1000:
         ans += ones[n//1000] + " thousand "
